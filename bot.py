@@ -10,7 +10,7 @@ def short(url):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'Heya! I am a File To Link Bot created by TeLe TiPs.Send me any file (Video, Audio, Photo, Document)👇🏻')
+    bot.reply_to(message, 'Hi! I am a File To Link Bot created by ∪∩∩᭄_1997.Send me any file (Video, Audio, Photo, Document)👇🏻')
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
